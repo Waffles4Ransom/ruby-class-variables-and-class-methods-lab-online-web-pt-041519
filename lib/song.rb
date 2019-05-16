@@ -30,7 +30,8 @@ class Song
       if @@genre[genre]
         @@genre[genre] +=1 
       else
-        @@genre[genre] << genre
+        @@genre[genre] = genre
+      end
     end
   end 
   
